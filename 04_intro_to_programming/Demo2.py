@@ -1,8 +1,9 @@
 #! /usr/bin/python3
-age = input('Enter your age:')
-if age is '':
-    print('Please enter your age:')
-elif int(age) >= 21:
-    print('You are of legal drinking age')
+unumber = input('Enter your number:')
+if unumber is '':
+    print('Please enter a number')
+elif int(unumber) % 2 == 0:
+    print('This is a even number')
 else:
-    print('You are not old enough to drink')
+    print('This is a odd number')
+
