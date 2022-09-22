@@ -1,0 +1,9 @@
+#! /usr/bin/python3
+
+colors = ['black', 'white']
+sizes = ['S', 'M', 'L']
+sleeves = ['short' , 'long']
+tshirts = [[color, size, sleeves] for color in colors
+                         for size in sizes]
+                         for sleeves in sleeves]
+tshirts
