@@ -1,0 +1,13 @@
+[db]
+  34.121.23.157
+[web]
+  34.121.23.157
+  34.171.28.19
+
+[all:vars]
+  ansible_connectin=ssh
+  ansible_user=ubuntu
+  ansible_ssh_private_key_file=/home/jshuler/.ssh/id_ansible_cohort8
+ 
+
+
